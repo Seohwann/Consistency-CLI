@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Build outputs (map 파일은 버전 관리 X)
+dist/**/*.map
+
+# Logs
+logs/
+*.log
+
+# Environment variables
+.env
+.env.local
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor settings
+.vscode/
+.idea/
+
+# Test coverage
+coverage/

@@ -1,4 +1,4 @@
-# Consistency CLI Tool
+# 🛠️ Consistency CLI Tool
 
 협업 프론트엔드 프로젝트에서 라이브러리 버전, 특수문자 포함 등으로 인한 개발 환경의 파편화를 막고, 코드 품질의 일관성을 유지하기 위해 제작된 TypeScript 기반의 CLI 도구입니다.
 
@@ -6,7 +6,7 @@
 
 ---
 
-## 배경 (Background)
+## 🪟 배경 (Background)
 
 산학협력 프로젝트를 진행하며 함께 제휴를 맺은 기업인 Databrain의 'MAHA'라는 AI 퍼포먼스 마케터를 개발하는 중 프론트엔드 팀 리드로서 겪었던 문제를 해결하는 과정에서 아이디어를 생각해내어 만들게 되었습니다.
 
@@ -25,7 +25,7 @@ Consistency CLI는 이러한 저의 경험과 해결책을 자동화하여, 다�
 
 ---
 
-## 주요 기능 (Features)
+## ✏️ 주요 기능 (Features)
 
 이 CLI 도구는 다음과 같은 기능을 제공하여 개발 환경의 일관성을 보장합니다.
 
@@ -49,7 +49,7 @@ package.json 파일을 분석하여 Tilde(~)나 Caret(^)과 같은 범위 버전
 - format → lint → test → build가 모두 통과해야 CI도 `exit 0` 으로 통합 실행되도록 `npm run check` 로 묶음
 ---
 
-## 시작하기
+## ⭐ 시작하기
 
 ### 사전 요구 사항
 - Node.js (LTS 버전 권장)

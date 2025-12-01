@@ -81,7 +81,7 @@ package.json의 scripts 섹션에 다음과 같이 정의해서 한 번에 검�
   "check": "npm run format && npm run lint && npm run test && npm run build"
 }
 `
-
+build 폴더의 파일명을 맞춰주고, 검사하고 싶은 파일의 폴더를 `tests` 자리에 대신 넣으면 됩니다.
 
 이제 아래 명령어 한 번으로 일관성 검사를 수행할 수 있습니다.
 포맷팅, 린트, 테스트, 빌드를 한 번에 수행합니다. CI 파이프라인이나 커밋 전 훅(Hook)으로 사용하기 적합합니다.

@@ -59,6 +59,7 @@ package.json 파일을 분석하여 Tilde(~)나 Caret(^)과 같은 범위 버전
 프로젝트 루트에서 아래 명령어를 통해 의존성을 설치합니다.
 
 `npm install --save-dev https://github.com/Seohwann/Consistency-CLI.git`
+`npm link consistency`
 
 ### 사용 방법 (Usage)
 

@@ -58,14 +58,14 @@ package.json 파일을 분석하여 Tilde(~)나 Caret(^)과 같은 범위 버전
 ### 설치
 프로젝트 루트에서 아래 명령어를 통해 의존성을 설치합니다.
 
-npm install consistency --save-dev
+`npm install consistency --save-dev`
 
 ### 사용 방법 (Usage)
 
 1. 의존성 버전 검사
 현재 프로젝트의 package.json을 읽어 범위 버전(^, ~ 등)을 사용하는 의존성을 찾아냅니다.
 
-npx consistency
+`npx consistency`
 
 2. 일관성 검사 (Consistency Check)
 Consistency CLI를 프로젝트의 품질 게이트로 사용하려면,
@@ -86,7 +86,8 @@ package.json의 scripts 섹션에 다음과 같이 정의해서 한 번에 검�
 
 이제 아래 명령어 한 번으로 일관성 검사를 수행할 수 있습니다.
 포맷팅, 린트, 테스트, 빌드를 한 번에 수행합니다. CI 파이프라인이나 커밋 전 훅(Hook)으로 사용하기 적합합니다.
-npm run check
+
+`npm run check`
 
 ---
 

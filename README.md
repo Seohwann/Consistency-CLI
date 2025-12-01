@@ -60,8 +60,6 @@ package.json 파일을 분석하여 Tilde(~)나 Caret(^)과 같은 범위 버전
 
 `npm install --save-dev https://github.com/Seohwann/Consistency-CLI.git`
 
-`npm link consistency`
-
 ### 사용 방법 (Usage)
 
 1. 의존성 버전 검사
@@ -73,15 +71,14 @@ package.json 파일을 분석하여 Tilde(~)나 Caret(^)과 같은 범위 버전
 Consistency CLI를 프로젝트의 품질 게이트로 사용하려면,
 package.json의 scripts 섹션에 다음과 같이 정의해서 한 번에 검사하는 관문으로 묶어줍니다.
 
-`{
-  "scripts": {
-    "consistency": "npx consistency",
-    "format": "prettier --write \"src/**/*.ts\" \"tests/**/*.ts\"",
-    "lint": "eslint \"src/**/*.ts\" \"tests/**/*.ts\"",
-    "test": "vitest run",
-    "build": "tsc -p tsconfig.build.json",
-    "check": "npm run consistency && npm run format && npm run lint && npm run test && npm run build"
-  }
+`
+"scripts": {
+  "consistency": "npx consistency",
+  "format": "prettier --write \"src/**/*.ts\" \"tests/**/*.ts\"",
+  "lint": "eslint \"src/**/*.ts\" \"tests/**/*.ts\"",
+  "test": "vitest run",
+  "build": "tsc -p tsconfig.build.json",
+  "check": "npm run format && npm run lint && npm run test && npm run build"
 }
 `
 
